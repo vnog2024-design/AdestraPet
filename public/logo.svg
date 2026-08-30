@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" aria-label="AdestraPet">
+  <rect width="30" height="30" rx="6" fill="#d4912a"/>
+  <g fill="#fdf6e3">
+    <ellipse cx="15" cy="19.5" rx="5.5" ry="4.2"/>
+    <ellipse cx="8" cy="13" rx="2.2" ry="3"/>
+    <ellipse cx="12" cy="9.5" rx="2.1" ry="2.8"/>
+    <ellipse cx="18" cy="9.5" rx="2.1" ry="2.8"/>
+    <ellipse cx="22" cy="13" rx="2.2" ry="3"/>
+  </g>
+</svg>
