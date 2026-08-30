@@ -25,7 +25,7 @@ export const PRODUCT = {
     "AdestraPet é o programa completo de adestramento de cães em português: treinos passo a passo, agenda, acompanhamento de progresso e dicas diárias. Funciona offline no seu navegador.",
 
   /** URL base canônica do site (sem barra final). Usada para OG, sitemap, robots. */
-  siteUrl: "https://adestrapet.example.com",
+  siteUrl: "https://my-project-sigma-one-42.vercel.app",
 
   /** Contato de suporte (exibido publicamente). */
   supportEmail: "contato@adestrapet.example.com",

@@ -56,3 +56,4 @@ server.log
 /download/
 /skills/
 /prompts/
+.env.local
