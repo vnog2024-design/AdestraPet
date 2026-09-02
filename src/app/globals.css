@@ -117,8 +117,12 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html,
   body {
     @apply bg-background text-foreground;
+    /* Previne overflow horizontal em mobile (TWA-friendly) */
+    overflow-x: hidden;
+    max-width: 100%;
   }
   /* Custom scrollbar */
   ::-webkit-scrollbar {

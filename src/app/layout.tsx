@@ -85,6 +85,14 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
   },
   manifest: "/manifest.webmanifest",
+  // Metadados extras para PWA/TWA — permitem modo standalone no Android
+  other: {
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": PRODUCT.name,
+    "mobile-web-app-capable": "yes",
+    "format-detection": "telephone=no",
+  },
 };
 
 export const viewport: Viewport = {
@@ -95,6 +103,9 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  // Crítico para TWA/PWA no Android — permite modo standalone
+  userScalable: true,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
